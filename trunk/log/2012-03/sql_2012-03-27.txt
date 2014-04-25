@@ -1,0 +1,47 @@
+2012-03-27 15:36:07 SELECT * FROM account  WHERE account_id = 120461
+2012-03-27 15:36:07 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2012-03-27 15:36:07 SELECT * FROM game_servers  WHERE game_id = '19' ORDER BY number DESC
+2012-03-27 15:36:07 select server_id,server_name,status from game_servers where game_id = 19 order by server_id desc limit 1
+2012-03-27 15:39:10 SELECT * FROM account  WHERE account_id = 120461
+2012-03-27 15:39:10 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2012-03-27 15:39:10 select server_id,server_name,status from game_servers where game_id = 19 order by server_id desc limit 1
+2012-03-27 15:47:47 SELECT * FROM account  WHERE account_id = 120461
+2012-03-27 15:47:47 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2012-03-27 15:47:47 select server_id,server_name,status from game_servers where game_id = 19 order by server_id desc limit 1
+2012-03-27 15:48:29 SELECT * FROM account  WHERE account_id = 120461
+2012-03-27 15:48:29 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2012-03-27 15:48:29 select server_id,server_name,status from game_servers where game_id = 19 order by server_id desc limit 1
+2012-03-27 15:54:27 SELECT * FROM account  WHERE account_id = 120461
+2012-03-27 15:54:27 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2012-03-27 15:54:27 select server_id,server_name,status from game_servers where game_id = 19 order by server_id desc limit 1
+2012-03-27 15:56:38 SELECT * FROM account  WHERE account_id = 120461
+2012-03-27 15:56:38 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2012-03-27 15:56:38 select server_id,server_name,status from game_servers where game_id = 19 order by server_id desc limit 1
+2012-03-27 16:03:24 SELECT * FROM account  WHERE account_id = 120461
+2012-03-27 16:03:25 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2012-03-27 16:03:25 select server_id,server_name,status from game_servers where game_id = 19 order by server_id desc limit 1
+2012-03-27 16:09:09 SELECT * FROM account  WHERE account_id = 120461
+2012-03-27 16:09:10 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2012-03-27 16:09:10 select server_id,server_name,status from game_servers where game_id = 19 order by server_id desc limit 1
+2012-03-27 16:10:18 SELECT * FROM account  WHERE account_id = 120461
+2012-03-27 16:10:18 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2012-03-27 16:10:18 select server_id,server_name,status from game_servers where game_id = 19 order by server_id desc limit 1
+2012-03-27 16:11:01 SELECT * FROM account  WHERE account_id = 120461
+2012-03-27 16:11:01 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2012-03-27 16:11:01 select server_id,server_name,status from game_servers where game_id = 19 order by server_id desc limit 1
+2012-03-27 16:11:29 SELECT * FROM account  WHERE account_id = 120461
+2012-03-27 16:11:29 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2012-03-27 16:11:29 select server_id,server_name,status from game_servers where game_id = 19 order by server_id desc limit 1
+2012-03-27 16:12:38 SELECT * FROM account  WHERE account_id = 120461
+2012-03-27 16:12:38 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2012-03-27 16:12:38 select server_id,server_name,status from game_servers where game_id = 19 order by server_id desc limit 1
+2012-03-27 16:13:33 SELECT * FROM account  WHERE account_id = 120461
+2012-03-27 16:13:33 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2012-03-27 16:13:33 select server_id,server_name,status from game_servers where game_id = 19 order by server_id desc limit 1
+2012-03-27 16:15:49 SELECT * FROM account  WHERE account_id = 120461
+2012-03-27 16:15:49 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2012-03-27 16:15:49 select server_id,server_name,status from game_servers where game_id = 19 order by server_id desc limit 1
+2012-03-27 16:15:56 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2012-03-27 16:15:56 select server_id,server_name,status from game_servers where game_id = 19 order by server_id desc limit 1
+2012-03-27 16:16:22 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2012-03-27 16:16:22 select server_id,server_name,status from game_servers where game_id = 19 order by server_id desc limit 1

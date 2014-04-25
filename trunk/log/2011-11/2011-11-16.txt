@@ -1,0 +1,110 @@
+2011-11-16 11:43:51 b70a57aa72d076b39003c20ac1f35c47
+2011-11-16 11:43:51 array (
+  'validn' => '',
+  'wg_sess_user' => 
+  array (
+    'account_id' => 138462,
+    'account' => 'yangzh0010',
+    'email' => '',
+    'reg_ip' => '127.0.0.1',
+    'reg_time' => '2011-11-16 11:39:48',
+    'from_id' => 0,
+    'game_id' => '10',
+    'poster' => '17173',
+    'type' => 0,
+    'period' => 0,
+    'cooper_id' => 0,
+    'sub_code' => 0,
+    'cps_end_time' => '2011-11-16 11:39:48',
+    'week' => '3',
+    'hour' => '11',
+  ),
+)
+2011-11-16 11:43:51 array (
+  'jsoncallback' => 'jQuery15205701118654999758_1321414806269',
+  'user_name' => 'yangzh0014',
+  'password' => '851018',
+  'gid' => '10',
+  'poster' => '17173',
+  'realname' => '杨金进',
+  'idcard' => '130921198410182297',
+  'valid' => '5037',
+  '_' => '1321415031093',
+)
+2011-11-16 11:43:51 array (
+  'validn' => '',
+  'wg_sess_user' => 
+  array (
+    'account_id' => 138462,
+    'account' => 'yangzh0010',
+    'email' => '',
+    'reg_ip' => '127.0.0.1',
+    'reg_time' => '2011-11-16 11:39:48',
+    'from_id' => 0,
+    'game_id' => '10',
+    'poster' => '17173',
+    'type' => 0,
+    'period' => 0,
+    'cooper_id' => 0,
+    'sub_code' => 0,
+    'cps_end_time' => '2011-11-16 11:39:48',
+    'week' => '3',
+    'hour' => '11',
+  ),
+)
+2011-11-16 11:48:23 array (
+  'jsoncallback' => 'jQuery1520682411665407606_1321415293516',
+  'sdsid' => '',
+  'user_name' => 'yangzh0015',
+  'password' => '851018',
+  'gid' => '10',
+  'poster' => '17173',
+  'realname' => '杨金进',
+  'idcard' => '130921198410182297',
+  'valid' => '0294',
+  '_' => '1321415303140',
+)
+2011-11-16 11:48:23 array (
+)
+2011-11-16 11:48:27 array (
+  'jsoncallback' => 'jQuery1520682411665407606_1321415293518',
+  'sdsid' => '',
+  'user_name' => 'yangzh0016',
+  'password' => '851018',
+  'gid' => '10',
+  'poster' => '17173',
+  'realname' => '杨金进',
+  'idcard' => '130921198410182297',
+  'valid' => '0294',
+  '_' => '1321415307781',
+)
+2011-11-16 11:48:27 array (
+)
+2011-11-16 11:48:41 array (
+  'jsoncallback' => 'jQuery1520682411665407606_1321415293520',
+  'sdsid' => '',
+  'user_name' => 'yangzh0016',
+  'password' => '851018',
+  'gid' => '10',
+  'poster' => '17173',
+  'realname' => '杨金进',
+  'idcard' => '130921198410182297',
+  'valid' => '2639',
+  '_' => '1321415321609',
+)
+2011-11-16 11:48:41 array (
+)
+2011-11-16 11:48:52 array (
+  'jsoncallback' => 'jQuery15207455209566659376_1321415325344',
+  'sdsid' => '',
+  'user_name' => 'yangzh0013',
+  'password' => '851018',
+  'gid' => '10',
+  'poster' => '17173',
+  'realname' => '杨金进',
+  'idcard' => '130921198410182297',
+  'valid' => '1045',
+  '_' => '1321415332343',
+)
+2011-11-16 11:48:52 array (
+)

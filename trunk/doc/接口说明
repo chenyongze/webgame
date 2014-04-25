@@ -1,0 +1,42 @@
+
+注册参数说明：
+	sign = md5(用户名.密码.校验码)
+	passport 用户名
+	password 密码		base64_encode(密码)
+	realname 真实姓名
+	idcard 身份证号
+
+-------------------------------------注册---------------------------------------------------------------------------
+校验码：condor#game7911$
+url:	http://192.168.1.110:8080/passport/webgameregister?
+例：
+		$passport ='testwww00000002';
+		$password = base64_encode('1234567');
+		$realname = '王王王';
+		$idcard   = '110108198708184182';
+
+		$regSign = md5($passport.$password.'condor#game7911$');
+		echo $password ,"<br/>";
+		echo base64_decode($password),'<br/>';
+		$url = "http://192.168.1.12:8080/passport/webgameregister?";
+		$url = 'http://192.168.1.110:8080/passport/webgamelogin?';
+		$var = $this->crul_request($url,array('passport'=>$passport,'password'=>$password,'realname'=>$realname,'idcard'=>$idcard,'sign'=>$regSign));
+		var_dump($var);
+返回结果：
+		[{"errormessage":"nomessage","result":"ok","account_id":120321}]
+
+-------------------------------------登陆---------------------------------------------------------------------------
+校验码：conor$game$#919Lk7
+url:	http://192.168.1.110:8080/passport/webgamelogin?
+例：
+	$logSign = md5($passport.md5(strtoupper(md5('1234567'))).'conor$game$#919Lk7');
+	$url = 'http://192.168.1.12:8080/passport/webgamelogin?';
+	$var = $this->crul_request($url,array('passport'=>$passport,'password'=>md5(strtoupper(md5('1234567'))),'sign'=>$logSign));
+返回全部信息
+	[{"union_id":null,"active_time":"2011-04-27 12:51:37.0","errormessage":"nomessage",
+	"id_number":null,"id_type":null,"result":"ok","real_name":null,"email":null,
+	"active_ip":"3232235951","mobile_phone":null,"second_password":null,"account_id":120321}]
+	
+active_time:注册时间
+account_id：账号ID
+

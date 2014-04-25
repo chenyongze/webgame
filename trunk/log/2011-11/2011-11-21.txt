@@ -1,0 +1,35 @@
+2011-11-21 13:04:09 F:\yangjinjin\www\yy.51yx.com\sd_webgame\\web/js/game/
+2011-11-21 13:04:56 F:\yangjinjin\www\yy.51yx.com\sd_webgame\web/js/game/
+2011-11-21 13:07:26 F:\yangjinjin\www\yy.51yx.com\sd_webgame\web/js/game/
+2011-11-21 16:46:45 array (
+  0 => 
+  array (
+    'server_id' => '121',
+    'server_name' => '王者归来',
+    'alias' => '',
+    'game_id' => '16',
+    'number' => '1',
+    'is_iframe' => '1',
+    'open_time' => '0000-00-00 00:00:00',
+    'status' => '1',
+    'memo' => '',
+    'create_time' => '2011-08-29 09:47:42',
+    'loginurl' => NULL,
+    'limit_ip' => '0',
+  ),
+  1 => 
+  array (
+    'server_id' => '109',
+    'server_name' => '测试',
+    'alias' => '',
+    'game_id' => '16',
+    'number' => '1',
+    'is_iframe' => '1',
+    'open_time' => '0000-00-00 00:00:00',
+    'status' => '2',
+    'memo' => '',
+    'create_time' => '2011-06-13 13:09:51',
+    'loginurl' => NULL,
+    'limit_ip' => '0',
+  ),
+)

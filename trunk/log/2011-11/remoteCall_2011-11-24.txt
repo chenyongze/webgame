@@ -1,0 +1,1 @@
+2011-11-24 09:37:59 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=yangjinjin&password=4c6d85c26edf0a1b95a9560494035d5d&sign=ae63a84de6693bbb5619ca2136b8b359: -1.3241100311279s

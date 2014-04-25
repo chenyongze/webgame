@@ -1,0 +1,91 @@
+2011-11-21 12:58:57 SELECT * FROM games  WHERE game_id = 16
+2011-11-21 12:59:38 SELECT * FROM account  WHERE account_id = 120461
+2011-11-21 13:00:33 SELECT * FROM game_servers  WHERE server_id = 121
+2011-11-21 13:00:33 SELECT * FROM play_game  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:00:33 UPDATE `play_game` SET `play_time` = '2011-11-21 13:00:33' WHERE id = '11'
+2011-11-21 13:00:33 SELECT * FROM game_login_first_16  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:00:33  select * from play_game_log where account_id = 120461 
+				 and server_id = 121
+				 and login_time > '2011-11-21' limit 1 
+2011-11-21 13:00:33 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES (120461, 'wow_001', 0, 16, 121, '2011-11-21 13:00:33', 1, '2011-05-05 19:09:50.0', 2130706433, 0)
+2011-11-21 13:01:13 SELECT * FROM play_game  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:01:14 UPDATE `play_game` SET `play_time` = '2011-11-21 13:01:14' WHERE id = '11'
+2011-11-21 13:01:14 SELECT * FROM game_login_first_16  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:01:14  select * from play_game_log where account_id = 120461 
+				 and server_id = 121
+				 and login_time > '2011-11-21' limit 1 
+2011-11-21 13:01:14 UPDATE `play_game_log` SET `login_time` = '2011-11-21 13:01:14', `login_ip` = 2130706433, `login_times` = 2 WHERE id = '31356'
+2011-11-21 13:02:51 SELECT * FROM play_game  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:02:51 UPDATE `play_game` SET `play_time` = '2011-11-21 13:02:51' WHERE id = '11'
+2011-11-21 13:02:51 SELECT * FROM game_login_first_16  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:02:51  select * from play_game_log where account_id = 120461 
+				 and server_id = 121
+				 and login_time > '2011-11-21' limit 1 
+2011-11-21 13:02:51 UPDATE `play_game_log` SET `login_time` = '2011-11-21 13:02:51', `login_ip` = 2130706433, `login_times` = 3 WHERE id = '31356'
+2011-11-21 13:06:15 SELECT * FROM play_game  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:06:15 UPDATE `play_game` SET `play_time` = '2011-11-21 13:06:15' WHERE id = '11'
+2011-11-21 13:06:15 SELECT * FROM game_login_first_16  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:06:15  select * from play_game_log where account_id = 120461 
+				 and server_id = 121
+				 and login_time > '2011-11-21' limit 1 
+2011-11-21 13:06:15 UPDATE `play_game_log` SET `login_time` = '2011-11-21 13:06:15', `login_ip` = 2130706433, `login_times` = 4 WHERE id = '31356'
+2011-11-21 13:21:19 SELECT * FROM games  WHERE game_id = 19
+2011-11-21 13:21:19 SELECT * FROM game_servers  WHERE server_id = 123
+2011-11-21 13:21:27 SELECT * FROM play_game  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:21:27 UPDATE `play_game` SET `play_time` = '2011-11-21 13:21:27' WHERE id = '11'
+2011-11-21 13:21:27 SELECT * FROM game_login_first_16  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:21:27  select * from play_game_log where account_id = 120461 
+				 and server_id = 121
+				 and login_time > '2011-11-21' limit 1 
+2011-11-21 13:21:27 UPDATE `play_game_log` SET `login_time` = '2011-11-21 13:21:27', `login_ip` = 2130706433, `login_times` = 5 WHERE id = '31356'
+2011-11-21 13:21:30 SELECT * FROM play_game  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:21:30 UPDATE `play_game` SET `play_time` = '2011-11-21 13:21:30' WHERE id = '11'
+2011-11-21 13:21:30 SELECT * FROM game_login_first_16  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:21:30  select * from play_game_log where account_id = 120461 
+				 and server_id = 121
+				 and login_time > '2011-11-21' limit 1 
+2011-11-21 13:21:30 UPDATE `play_game_log` SET `login_time` = '2011-11-21 13:21:30', `login_ip` = 2130706433, `login_times` = 6 WHERE id = '31356'
+2011-11-21 13:21:36 SELECT * FROM play_game  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:21:36 UPDATE `play_game` SET `play_time` = '2011-11-21 13:21:36' WHERE id = '11'
+2011-11-21 13:21:36 SELECT * FROM game_login_first_16  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:21:36  select * from play_game_log where account_id = 120461 
+				 and server_id = 121
+				 and login_time > '2011-11-21' limit 1 
+2011-11-21 13:21:36 UPDATE `play_game_log` SET `login_time` = '2011-11-21 13:21:36', `login_ip` = 2130706433, `login_times` = 7 WHERE id = '31356'
+2011-11-21 13:21:59 SELECT * FROM play_game  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:21:59 UPDATE `play_game` SET `play_time` = '2011-11-21 13:21:59' WHERE id = '11'
+2011-11-21 13:21:59 SELECT * FROM game_login_first_16  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:21:59  select * from play_game_log where account_id = 120461 
+				 and server_id = 121
+				 and login_time > '2011-11-21' limit 1 
+2011-11-21 13:21:59 UPDATE `play_game_log` SET `login_time` = '2011-11-21 13:21:59', `login_ip` = 2130706433, `login_times` = 8 WHERE id = '31356'
+2011-11-21 13:23:31 SELECT * FROM play_game  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:23:31 UPDATE `play_game` SET `play_time` = '2011-11-21 13:23:31' WHERE id = '11'
+2011-11-21 13:23:31 SELECT * FROM game_login_first_16  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:23:31  select * from play_game_log where account_id = 120461 
+				 and server_id = 121
+				 and login_time > '2011-11-21' limit 1 
+2011-11-21 13:23:31 UPDATE `play_game_log` SET `login_time` = '2011-11-21 13:23:31', `login_ip` = 2130706433, `login_times` = 9 WHERE id = '31356'
+2011-11-21 13:23:33 SELECT * FROM play_game  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:23:33 UPDATE `play_game` SET `play_time` = '2011-11-21 13:23:33' WHERE id = '11'
+2011-11-21 13:23:34 SELECT * FROM game_login_first_16  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:23:34  select * from play_game_log where account_id = 120461 
+				 and server_id = 121
+				 and login_time > '2011-11-21' limit 1 
+2011-11-21 13:23:34 UPDATE `play_game_log` SET `login_time` = '2011-11-21 13:23:34', `login_ip` = 2130706433, `login_times` = 10 WHERE id = '31356'
+2011-11-21 13:24:41 SELECT * FROM play_game  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:24:41 UPDATE `play_game` SET `play_time` = '2011-11-21 13:24:41' WHERE id = '11'
+2011-11-21 13:24:41 SELECT * FROM game_login_first_16  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 13:24:41  select * from play_game_log where account_id = 120461 
+				 and server_id = 121
+				 and login_time > '2011-11-21' limit 1 
+2011-11-21 13:24:41 UPDATE `play_game_log` SET `login_time` = '2011-11-21 13:24:41', `login_ip` = 2130706433, `login_times` = 11 WHERE id = '31356'
+2011-11-21 16:46:41 SELECT * FROM account  WHERE account_id = 120461
+2011-11-21 16:46:45 SELECT * FROM game_servers  WHERE game_id = '16' ORDER BY number DESC
+2011-11-21 16:56:53 SELECT * FROM play_game  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 16:56:53 UPDATE `play_game` SET `play_time` = '2011-11-21 16:56:53' WHERE id = '11'
+2011-11-21 16:56:53 SELECT * FROM game_login_first_16  WHERE account_id = 120461 AND server_id = 121
+2011-11-21 16:56:53  select * from play_game_log where account_id = 120461 
+				 and server_id = 121
+				 and login_time > '2011-11-21' limit 1 
+2011-11-21 16:56:53 UPDATE `play_game_log` SET `login_time` = '2011-11-21 16:56:53', `login_ip` = 2130706433, `login_times` = 12 WHERE id = '31356'

@@ -1,0 +1,28 @@
+2011-11-04 15:49:24 SELECT * FROM account  WHERE account_id = 120461
+2011-11-04 15:49:24 SELECT * FROM play_game  WHERE account_id = 120461 ORDER BY play_time DESC
+2011-11-04 15:49:24 SELECT * FROM play_game  WHERE game_id IS NULL  ORDER BY number DESC
+2011-11-04 15:51:23 SELECT * FROM account  WHERE account_id = 120461
+2011-11-04 15:51:23 SELECT * FROM play_game  WHERE game_id = '19' ORDER BY number DESC
+2011-11-04 16:03:49 SELECT * FROM account  WHERE account_id = 120461
+2011-11-04 16:03:49 SELECT * FROM games  WHERE 1
+2011-11-04 16:03:49 SELECT * FROM game_servers  WHERE 1
+2011-11-04 16:36:34 SELECT * FROM account  WHERE account_id = 120461
+2011-11-04 16:39:55 SELECT * FROM account  WHERE account_id = 120461
+2011-11-04 16:40:53 SELECT * FROM account  WHERE account_id = 120461
+2011-11-04 16:41:57 SELECT * FROM account  WHERE account_id = 120461
+2011-11-04 16:46:10 SELECT * FROM account  WHERE account_id = 120461
+2011-11-04 16:48:55 SELECT * FROM account  WHERE account_id = 120461
+2011-11-04 16:52:22 SELECT * FROM account  WHERE account_id = 120461
+2011-11-04 17:23:28 SELECT * FROM account  WHERE account_id = 120461
+2011-11-04 17:24:47 SELECT * FROM account  WHERE account_id = 120461
+2011-11-04 17:28:40 SELECT * FROM account  WHERE account_id = 120461
+2011-11-04 17:28:49 SELECT * FROM games  WHERE game_id = 19
+2011-11-04 17:28:49 SELECT * FROM game_servers  WHERE server_id = 123213
+2011-11-04 17:28:49 SELECT * FROM play_game  WHERE account_id = 120461 AND server_id = 123213
+2011-11-04 17:28:49 UPDATE `play_game` SET `play_time` = '2011-11-04 17:28:49' WHERE id = '14'
+2011-11-04 17:28:49 SELECT * FROM game_login_first_19  WHERE account_id = 120461 AND server_id = 123213
+2011-11-04 17:28:49 INSERT INTO `game_login_first_19` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES (120461, 'wow_001', 123213, '2011-11-04 17:28:49', 0, 0)
+2011-11-04 17:28:49  select * from play_game_log where account_id = 120461 
+				 and server_id = 123213
+				 and login_time > '2011-11-04' limit 1 
+2011-11-04 17:28:49 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES (120461, 'wow_001', 0, 19, 123213, '2011-11-04 17:28:49', 1, '2011-05-05 19:09:50.0', 2130706433, 0)

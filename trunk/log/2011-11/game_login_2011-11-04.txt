@@ -1,0 +1,18 @@
+2011-11-04 17:28:49 array (
+  'game_id' => '19',
+  'game_code' => 'rxwl',
+  'game_name' => '热血武林',
+  'game_url' => 'http://50.51yx.com',
+  'loginurl' => 'http://211.100.101.20/wgame/third/rexuewulin.html?',
+  'login_key' => 'QNAcqLYjTXJbtKE73Bs6',
+  'login_arg' => 'partner=sd&username=$uid&ts=$time&token=$sign&recommender=$from_id',
+  'login_md5' => 'sd$partent$uid$time$key',
+  'is_plugin' => '0',
+  'server_no' => '0',
+  'server_id' => '123213',
+  'is_iframe' => '1',
+  'server_name' => 'rwr',
+  'account_id' => 120461,
+  'from_id' => NULL,
+)
+2011-11-04 17:28:49 http://211.100.101.20/wgame/third/rexuewulin.html?partner=sd&username=120461&ts=1320398929&token=68bbb7ea208cd4835c3e7d59f9af9d74&recommender=
