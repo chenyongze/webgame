@@ -1,0 +1,25 @@
+<?php
+
+$badwords = array(
+	'FWQ',
+	'lm',
+	'LONGMEN',
+	'LONG',
+	'av',
+	'admin',
+	'bitch',
+	'breast',
+	'bd',
+	'cao',
+	'fuck',
+	'gamemaster',
+	'gm',
+	'GM',
+	'japan',
+	'password',
+	'powerleader',
+	'qj',
+	'sb',
+	'shit',
+	'tmd',
+);

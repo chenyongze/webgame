@@ -1,0 +1,19 @@
+# Turn on URL rewriting
+RewriteEngine On
+
+# Installation directory
+RewriteBase /
+
+DirectoryIndex index.html index.htm index.php
+
+# Protect application and system files from being viewed
+RewriteRule ^(app|system) - [F,L]
+RewriteCond %{REQUEST_URI} !^.*(\.xml|\.html|\.htm|\.php|\.swf|\.css|\.js|\.gif|\.png|\.jpg|\.jpeg|\.url)
+# Allow any files or directories that exist to be displayed directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite all other URLs to index.php/URL
+RewriteRule .* /index.php/$0 [PT,L]
+
+errorDocument 404 /404.php

@@ -1,0 +1,9 @@
+2011-11-11 14:10:58 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=yangjinjin&password=4c6d85c26edf0a1b95a9560494035d5d&sign=ae63a84de6693bbb5619ca2136b8b359: -0.076108932495117s
+2011-11-11 14:10:58 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=yangjinjin&password=4c6d85c26edf0a1b95a9560494035d5d&sign=ae63a84de6693bbb5619ca2136b8b359: -0.021205186843872s
+2011-11-11 14:11:31 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=yangjinjin&password=4c6d85c26edf0a1b95a9560494035d5d&sign=ae63a84de6693bbb5619ca2136b8b359: -0.022351026535034s
+2011-11-11 14:11:32 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=yangjinjin&password=4c6d85c26edf0a1b95a9560494035d5d&sign=ae63a84de6693bbb5619ca2136b8b359: -0.031406164169312s
+2011-11-11 14:11:42 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=yangjinjin&password=4c6d85c26edf0a1b95a9560494035d5d&sign=ae63a84de6693bbb5619ca2136b8b359: -0.020246028900146s
+2011-11-11 14:11:42 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=yangjinjin&password=4c6d85c26edf0a1b95a9560494035d5d&sign=ae63a84de6693bbb5619ca2136b8b359: -0.021663188934326s
+2011-11-11 14:12:01 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=yangjinjin&password=4c6d85c26edf0a1b95a9560494035d5d&sign=ae63a84de6693bbb5619ca2136b8b359: -0.02140212059021s
+2011-11-11 14:12:01 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=yangjinjin&password=4c6d85c26edf0a1b95a9560494035d5d&sign=ae63a84de6693bbb5619ca2136b8b359: -0.020536184310913s
+2011-11-11 17:12:33 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=wow_001&password=f59bd65f7edafb087a81d4dca06c4910&sign=fe0f8147b58f13a2ca945e81e9549ad3: -0.13700008392334s

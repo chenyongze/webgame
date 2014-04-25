@@ -1,0 +1,6 @@
+2011-11-15 10:00:40 SELECT * FROM account  WHERE account_id = 120461
+2011-11-15 10:00:40 SELECT * FROM play_game  WHERE account_id = 120461 ORDER BY play_time DESC
+2011-11-15 10:00:40 SELECT * FROM games  WHERE 1
+2011-11-15 10:00:40 SELECT * FROM game_servers  WHERE 1
+2011-11-15 10:44:34 SELECT * FROM account  WHERE account_id = 120481
+2011-11-15 10:44:34 SELECT * FROM play_game  WHERE account_id = 120481 ORDER BY play_time DESC

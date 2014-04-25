@@ -1,0 +1,7 @@
+
+广告格式如下：
+	www.xxx.com/action/Method/站长ID/广告ID/cps或cpa/子ID/
+
+登陆：
+	官网：www.xxx.com/playgame/index/游戏ID/服务器ID
+	合作：www.xxx.com/playgame/login/游戏ID/服务器ID/用户ID/用户名/用户IP/合作商ID/时间戳(time)/加密结果

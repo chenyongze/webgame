@@ -1,0 +1,34 @@
+2011-10-11 16:55:37 select flag from active_code where card_no='' and user_name=''
+2011-10-11 16:55:37 insert into active_code(card_no,game_id,user_name,active_time,active_ip) 
+		values('',,'',NOW(),'127.0.0.1')
+2011-10-11 16:55:50 select flag from active_code where card_no='' and user_name=''
+2011-10-11 16:55:50 insert into active_code(card_no,game_id,user_name,active_time,active_ip) 
+		values('',,'',NOW(),'127.0.0.1')
+2011-10-11 16:58:02 select flag from active_code where card_no='' and user_name=''
+2011-10-11 16:58:02 insert into active_code(card_no,game_id,user_name,active_time,active_ip) 
+		values('',,'',NOW(),'127.0.0.1')
+2011-10-11 16:58:15 select flag from active_code where card_no='' and user_name=''
+2011-10-11 16:58:15 insert into active_code(card_no,game_id,user_name,active_time,active_ip) 
+		values('',,'',NOW(),'127.0.0.1')
+2011-10-11 17:15:05 select account_id from account where account='851018'
+2011-10-11 17:17:19 select account_id from account where account='851018'
+2011-10-11 17:17:22 select account_id from account where account='851018'
+2011-10-11 17:17:22 select account_id from account where account='851018'
+2011-10-11 17:17:22 select account_id from account where account='851018'
+2011-10-11 17:17:23 select account_id from account where account='851018'
+2011-10-11 17:18:27 select account_id from account where account='851018'
+2011-10-11 17:18:47 select account_id from account where account='851018'
+2011-10-11 17:21:00 select account_id from account where account='851018'
+2011-10-11 17:23:40 select account_id from account where account='851018'
+2011-10-11 17:29:19 select account_id from account where account='851018'
+2011-10-11 17:30:26 select account_id from account where account='851018'
+2011-10-11 17:31:02 select account_id from account where account='851018'
+2011-10-11 17:32:22 select account_id from account where account='851018'
+2011-10-11 17:32:57 select account_id from account where account='851018'
+2011-10-11 17:33:19 select account_id from account where account='851018'
+2011-10-11 17:33:44 select account_id from account where account='851018'
+2011-10-11 17:33:48 select account_id from account where account='851018'
+2011-10-11 17:34:01 select account_id from account where account='851018'
+2011-10-11 17:34:46 select account_id from account where account='851018'
+2011-10-11 17:35:49 select account_id from account where account='851018'
+2011-10-11 17:39:30 select account_id from account where account='851018'

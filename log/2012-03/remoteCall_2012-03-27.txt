@@ -1,0 +1,102 @@
+2012-03-27 15:29:07 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.03275990486145s
+2012-03-27 15:29:07 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:29:39 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.015912055969238s
+2012-03-27 15:29:39 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:29:54 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.030098915100098s
+2012-03-27 15:29:54 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:30:05 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -1.2327690124512s
+2012-03-27 15:30:05 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:30:36 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.63893699645996s
+2012-03-27 15:30:36 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:32:13 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.017354011535645s
+2012-03-27 15:32:13 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:33:18 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.031909942626953s
+2012-03-27 15:33:18 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:33:44 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.020519971847534s
+2012-03-27 15:33:44 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:34:28 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.016937971115112s
+2012-03-27 15:34:28 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:34:44 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -1.2950580120087s
+2012-03-27 15:34:44 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:35:10 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.015524864196777s
+2012-03-27 15:35:10 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:36:07 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=wow_001&password=f59bd65f7edafb087a81d4dca06c4910&sign=fe0f8147b58f13a2ca945e81e9549ad3: -0.14487099647522s
+2012-03-27 15:36:07 '[{"active_time":"2011-05-05 19:09:50.0","result":"ok","mobile_phone":null,"union_id":null,"errormessage":"nomessage","second_password":null,"account_id":120461,"id_number":null,"id_type":null,"email":null,"active_ip":"3232235777","real_name":null}]'
+2012-03-27 15:36:23 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -1.521183013916s
+2012-03-27 15:36:23 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:36:53 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -1.2137680053711s
+2012-03-27 15:36:53 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:38:45 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.34903693199158s
+2012-03-27 15:38:45 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:39:00 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.015490055084229s
+2012-03-27 15:39:00 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:39:10 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=wow_001&password=f59bd65f7edafb087a81d4dca06c4910&sign=fe0f8147b58f13a2ca945e81e9549ad3: -0.033632040023804s
+2012-03-27 15:39:10 '[{"active_time":"2011-05-05 19:09:50.0","result":"ok","mobile_phone":null,"union_id":null,"errormessage":"nomessage","second_password":null,"account_id":120461,"id_number":null,"id_type":null,"email":null,"active_ip":"3232235777","real_name":null}]'
+2012-03-27 15:39:15 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -1.0093100070953s
+2012-03-27 15:39:15 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:40:40 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.60471510887146s
+2012-03-27 15:40:40 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:43:29 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -1.2376239299774s
+2012-03-27 15:43:29 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:44:25 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.083409070968628s
+2012-03-27 15:44:25 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:47:35 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.84383201599121s
+2012-03-27 15:47:35 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:47:47 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=wow_001&password=f59bd65f7edafb087a81d4dca06c4910&sign=fe0f8147b58f13a2ca945e81e9549ad3: -0.045095920562744s
+2012-03-27 15:47:47 '[{"active_time":"2011-05-05 19:09:50.0","result":"ok","mobile_phone":null,"union_id":null,"errormessage":"nomessage","second_password":null,"account_id":120461,"id_number":null,"id_type":null,"email":null,"active_ip":"3232235777","real_name":null}]'
+2012-03-27 15:48:19 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.95117712020874s
+2012-03-27 15:48:19 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:48:29 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=wow_001&password=f59bd65f7edafb087a81d4dca06c4910&sign=fe0f8147b58f13a2ca945e81e9549ad3: -1.0507040023804s
+2012-03-27 15:48:29 '[{"active_time":"2011-05-05 19:09:50.0","result":"ok","mobile_phone":null,"union_id":null,"errormessage":"nomessage","second_password":null,"account_id":120461,"id_number":null,"id_type":null,"email":null,"active_ip":"3232235777","real_name":null}]'
+2012-03-27 15:54:16 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -1.2360029220581s
+2012-03-27 15:54:16 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:54:27 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=wow_001&password=f59bd65f7edafb087a81d4dca06c4910&sign=fe0f8147b58f13a2ca945e81e9549ad3: -0.51412296295166s
+2012-03-27 15:54:27 '[{"active_time":"2011-05-05 19:09:50.0","result":"ok","mobile_phone":null,"union_id":null,"errormessage":"nomessage","second_password":null,"account_id":120461,"id_number":null,"id_type":null,"email":null,"active_ip":"3232235777","real_name":null}]'
+2012-03-27 15:56:30 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -1.0605020523071s
+2012-03-27 15:56:30 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:56:38 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=wow_001&password=f59bd65f7edafb087a81d4dca06c4910&sign=fe0f8147b58f13a2ca945e81e9549ad3: -0.98588705062866s
+2012-03-27 15:56:38 '[{"active_time":"2011-05-05 19:09:50.0","result":"ok","mobile_phone":null,"union_id":null,"errormessage":"nomessage","second_password":null,"account_id":120461,"id_number":null,"id_type":null,"email":null,"active_ip":"3232235777","real_name":null}]'
+2012-03-27 15:58:24 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -1.1968250274658s
+2012-03-27 15:58:24 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:59:00 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.01715087890625s
+2012-03-27 15:59:00 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 15:59:35 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -1.0841670036316s
+2012-03-27 15:59:35 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 16:03:19 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -1.3757350444794s
+2012-03-27 16:03:19 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 16:03:24 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=wow_001&password=f59bd65f7edafb087a81d4dca06c4910&sign=fe0f8147b58f13a2ca945e81e9549ad3: -0.77354097366333s
+2012-03-27 16:03:24 '[{"active_time":"2011-05-05 19:09:50.0","result":"ok","mobile_phone":null,"union_id":null,"errormessage":"nomessage","second_password":null,"account_id":120461,"id_number":null,"id_type":null,"email":null,"active_ip":"3232235777","real_name":null}]'
+2012-03-27 16:05:29 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -1.1920731067657s
+2012-03-27 16:05:29 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 16:08:58 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -1.1225349903107s
+2012-03-27 16:08:58 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 16:09:09 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=wow_001&password=f59bd65f7edafb087a81d4dca06c4910&sign=fe0f8147b58f13a2ca945e81e9549ad3: -0.034162044525146s
+2012-03-27 16:09:09 '[{"active_time":"2011-05-05 19:09:50.0","result":"ok","mobile_phone":null,"union_id":null,"errormessage":"nomessage","second_password":null,"account_id":120461,"id_number":null,"id_type":null,"email":null,"active_ip":"3232235777","real_name":null}]'
+2012-03-27 16:10:02 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.57544112205505s
+2012-03-27 16:10:02 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 16:10:18 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=wow_001&password=f59bd65f7edafb087a81d4dca06c4910&sign=fe0f8147b58f13a2ca945e81e9549ad3: -0.032733917236328s
+2012-03-27 16:10:18 '[{"active_time":"2011-05-05 19:09:50.0","result":"ok","mobile_phone":null,"union_id":null,"errormessage":"nomessage","second_password":null,"account_id":120461,"id_number":null,"id_type":null,"email":null,"active_ip":"3232235777","real_name":null}]'
+2012-03-27 16:10:51 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -1.0307941436768s
+2012-03-27 16:10:51 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 16:11:01 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=wow_001&password=f59bd65f7edafb087a81d4dca06c4910&sign=fe0f8147b58f13a2ca945e81e9549ad3: -0.93509101867676s
+2012-03-27 16:11:01 '[{"active_time":"2011-05-05 19:09:50.0","result":"ok","mobile_phone":null,"union_id":null,"errormessage":"nomessage","second_password":null,"account_id":120461,"id_number":null,"id_type":null,"email":null,"active_ip":"3232235777","real_name":null}]'
+2012-03-27 16:11:19 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.89618992805481s
+2012-03-27 16:11:19 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 16:11:29 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=wow_001&password=f59bd65f7edafb087a81d4dca06c4910&sign=fe0f8147b58f13a2ca945e81e9549ad3: -0.58558821678162s
+2012-03-27 16:11:29 '[{"active_time":"2011-05-05 19:09:50.0","result":"ok","mobile_phone":null,"union_id":null,"errormessage":"nomessage","second_password":null,"account_id":120461,"id_number":null,"id_type":null,"email":null,"active_ip":"3232235777","real_name":null}]'
+2012-03-27 16:12:30 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -1.0110509395599s
+2012-03-27 16:12:30 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 16:12:38 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=wow_001&password=f59bd65f7edafb087a81d4dca06c4910&sign=fe0f8147b58f13a2ca945e81e9549ad3: -0.88564586639404s
+2012-03-27 16:12:38 '[{"active_time":"2011-05-05 19:09:50.0","result":"ok","mobile_phone":null,"union_id":null,"errormessage":"nomessage","second_password":null,"account_id":120461,"id_number":null,"id_type":null,"email":null,"active_ip":"3232235777","real_name":null}]'
+2012-03-27 16:13:27 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.79344797134399s
+2012-03-27 16:13:27 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 16:13:33 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=wow_001&password=f59bd65f7edafb087a81d4dca06c4910&sign=fe0f8147b58f13a2ca945e81e9549ad3: -0.86947417259216s
+2012-03-27 16:13:33 '[{"active_time":"2011-05-05 19:09:50.0","result":"ok","mobile_phone":null,"union_id":null,"errormessage":"nomessage","second_password":null,"account_id":120461,"id_number":null,"id_type":null,"email":null,"active_ip":"3232235777","real_name":null}]'
+2012-03-27 16:13:37 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.46075510978699s
+2012-03-27 16:13:37 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 16:13:42 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -0.38492512702942s
+2012-03-27 16:13:42 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 16:14:15 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=gg753159&password=f59bd65f7edafb087a81d4dca06c4910&sign=7f5822131f95abfdfe036c1cd418c578: -1.0872051715851s
+2012-03-27 16:14:15 '[{"result":"fail","errormessage":"user not exists"}]'
+2012-03-27 16:15:49 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=wow_001&password=f59bd65f7edafb087a81d4dca06c4910&sign=fe0f8147b58f13a2ca945e81e9549ad3: -0.05228590965271s
+2012-03-27 16:15:49 '[{"active_time":"2011-05-05 19:09:50.0","result":"ok","mobile_phone":null,"union_id":null,"errormessage":"nomessage","second_password":null,"account_id":120461,"id_number":null,"id_type":null,"email":null,"active_ip":"3232235777","real_name":null}]'

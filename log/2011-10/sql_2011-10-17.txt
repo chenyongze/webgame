@@ -1,0 +1,423 @@
+2011-10-17 11:34:30 SELECT * FROM games  WHERE game_id = '13'
+2011-10-17 11:34:30 SELECT * FROM game_servers  WHERE server_id = '21'
+2011-10-17 13:52:33 SELECT * FROM game_servers  WHERE server_id = '21'
+2011-10-17 13:54:19 SELECT * FROM game_servers  WHERE server_id = '104'
+2011-10-17 13:54:19 SELECT * FROM play_game  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 13:54:19 SELECT * FROM play_game  WHERE account_id = '1' ORDER BY play_time ASC
+2011-10-17 13:54:19 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1', '1', '13', '104', '2011-10-17 13:54:19')
+2011-10-17 13:54:19 SELECT * FROM game_login_first_13  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 13:54:19 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1', '1', '104', '2011-10-17 13:54:19', '1', '1')
+2011-10-17 13:54:19  select * from play_game_log where account_id = 1 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 13:54:19 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1', '1', '1', '13', '104', '2011-10-17 13:54:19', 1, '1', 2081364339, '1')
+2011-10-17 13:54:19 SELECT * FROM cooper  WHERE name_en IS NULL 
+2011-10-17 13:55:17 SELECT * FROM play_game  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 13:55:17 UPDATE `play_game` SET `play_time` = '2011-10-17 13:55:17' WHERE id = '13'
+2011-10-17 13:55:17 SELECT * FROM game_login_first_13  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 13:55:17  select * from play_game_log where account_id = 1 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 13:55:17 UPDATE `play_game_log` SET `login_time` = '2011-10-17 13:55:17', `login_ip` = 2081364339, `login_times` = 2 WHERE id = '31353'
+2011-10-17 13:55:17 SELECT * FROM cooper  WHERE name_en = '123'
+2011-10-17 13:55:32 SELECT * FROM play_game  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 13:55:32 UPDATE `play_game` SET `play_time` = '2011-10-17 13:55:32' WHERE id = '13'
+2011-10-17 13:55:32 SELECT * FROM game_login_first_13  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 13:55:32  select * from play_game_log where account_id = 1 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 13:55:32 UPDATE `play_game_log` SET `login_time` = '2011-10-17 13:55:32', `login_ip` = 2081364339, `login_times` = 3 WHERE id = '31353'
+2011-10-17 13:55:32 SELECT * FROM cooper  WHERE name_en = '110'
+2011-10-17 13:55:36 SELECT * FROM play_game  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 13:55:36 UPDATE `play_game` SET `play_time` = '2011-10-17 13:55:36' WHERE id = '13'
+2011-10-17 13:55:36 SELECT * FROM game_login_first_13  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 13:55:36  select * from play_game_log where account_id = 1 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 13:55:36 UPDATE `play_game_log` SET `login_time` = '2011-10-17 13:55:36', `login_ip` = 2081364339, `login_times` = 4 WHERE id = '31353'
+2011-10-17 13:55:36 SELECT * FROM cooper  WHERE name_en = '110'
+2011-10-17 13:56:16 SELECT * FROM play_game  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 13:56:16 UPDATE `play_game` SET `play_time` = '2011-10-17 13:56:16' WHERE id = '13'
+2011-10-17 13:56:16 SELECT * FROM game_login_first_13  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 13:56:16  select * from play_game_log where account_id = 1 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 13:56:17 UPDATE `play_game_log` SET `login_time` = '2011-10-17 13:56:17', `login_ip` = 2081364339, `login_times` = 5 WHERE id = '31353'
+2011-10-17 13:56:17 SELECT * FROM cooper  WHERE name_en = 'ejiatong'
+2011-10-17 13:56:31 SELECT * FROM play_game  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 13:56:31 UPDATE `play_game` SET `play_time` = '2011-10-17 13:56:31' WHERE id = '13'
+2011-10-17 13:56:31 SELECT * FROM game_login_first_13  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 13:56:31  select * from play_game_log where account_id = 1 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 13:56:31 UPDATE `play_game_log` SET `login_time` = '2011-10-17 13:56:31', `login_ip` = 2081364339, `login_times` = 6 WHERE id = '31353'
+2011-10-17 13:56:31 select `account`,from_id,cooper_id from `account` where account_id=1312313
+2011-10-17 13:56:33 SELECT * FROM play_game  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 13:56:33 UPDATE `play_game` SET `play_time` = '2011-10-17 13:56:33' WHERE id = '13'
+2011-10-17 13:56:33 SELECT * FROM game_login_first_13  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 13:56:33  select * from play_game_log where account_id = 1 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 13:56:33 UPDATE `play_game_log` SET `login_time` = '2011-10-17 13:56:33', `login_ip` = 2081364339, `login_times` = 7 WHERE id = '31353'
+2011-10-17 13:56:33 select `account`,from_id,cooper_id from `account` where account_id=1312313
+2011-10-17 13:56:41 SELECT * FROM play_game  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 13:56:41 UPDATE `play_game` SET `play_time` = '2011-10-17 13:56:41' WHERE id = '13'
+2011-10-17 13:56:41 SELECT * FROM game_login_first_13  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 13:56:41  select * from play_game_log where account_id = 1 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 13:56:41 UPDATE `play_game_log` SET `login_time` = '2011-10-17 13:56:41', `login_ip` = 2081364339, `login_times` = 8 WHERE id = '31353'
+2011-10-17 13:56:42 SELECT * FROM cooper  WHERE name_en = 'ejiatong1'
+2011-10-17 14:08:09 SELECT * FROM play_game  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 14:08:09 UPDATE `play_game` SET `play_time` = '2011-10-17 14:08:09' WHERE id = '13'
+2011-10-17 14:08:09 SELECT * FROM game_login_first_13  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 14:08:09  select * from play_game_log where account_id = 1 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 14:08:09 UPDATE `play_game_log` SET `login_time` = '2011-10-17 14:08:09', `login_ip` = 2081364339, `login_times` = 9 WHERE id = '31353'
+2011-10-17 14:08:09 select `account`,from_id,cooper_id from `account` where account_id=1312313
+2011-10-17 14:08:41 SELECT * FROM play_game  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 14:08:41 UPDATE `play_game` SET `play_time` = '2011-10-17 14:08:41' WHERE id = '13'
+2011-10-17 14:08:41 SELECT * FROM game_login_first_13  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 14:08:41  select * from play_game_log where account_id = 1 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 14:08:41 UPDATE `play_game_log` SET `login_time` = '2011-10-17 14:08:41', `login_ip` = 2081364339, `login_times` = 10 WHERE id = '31353'
+2011-10-17 14:08:41 select `account`,from_id,cooper_id from `account` where account_id=1312313
+2011-10-17 14:08:46 SELECT * FROM play_game  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 14:08:46 UPDATE `play_game` SET `play_time` = '2011-10-17 14:08:46' WHERE id = '13'
+2011-10-17 14:08:46 SELECT * FROM game_login_first_13  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 14:08:46  select * from play_game_log where account_id = 1 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 14:08:46 UPDATE `play_game_log` SET `login_time` = '2011-10-17 14:08:46', `login_ip` = 2081364339, `login_times` = 11 WHERE id = '31353'
+2011-10-17 14:08:46 select `account`,from_id,cooper_id from `account` where account_id=1312313
+2011-10-17 14:08:54 SELECT * FROM play_game  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 14:08:54 UPDATE `play_game` SET `play_time` = '2011-10-17 14:08:54' WHERE id = '13'
+2011-10-17 14:08:54 SELECT * FROM game_login_first_13  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 14:08:54  select * from play_game_log where account_id = 1 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 14:08:54 UPDATE `play_game_log` SET `login_time` = '2011-10-17 14:08:54', `login_ip` = 2081364339, `login_times` = 12 WHERE id = '31353'
+2011-10-17 14:08:54 select `account`,from_id,cooper_id from `account` where account_id=1312313
+2011-10-17 14:21:12 SELECT * FROM play_game  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 14:21:12 UPDATE `play_game` SET `play_time` = '2011-10-17 14:21:12' WHERE id = '13'
+2011-10-17 14:21:12 SELECT * FROM game_login_first_13  WHERE account_id = '1' AND server_id = '104'
+2011-10-17 14:21:12  select * from play_game_log where account_id = 1 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 14:21:12 UPDATE `play_game_log` SET `login_time` = '2011-10-17 14:21:12', `login_ip` = 2081364339, `login_times` = 13 WHERE id = '31353'
+2011-10-17 14:21:12 select `account`,from_id,cooper_id from `account` where account_id=1312313
+2011-10-17 14:49:58 SELECT * FROM account  WHERE account = '1312313'
+2011-10-17 14:49:58 SELECT * FROM play_game  WHERE account_id IS NULL  AND server_id = '104'
+2011-10-17 14:49:58 SELECT * FROM play_game  WHERE account_id IS NULL  ORDER BY play_time ASC
+2011-10-17 14:49:58 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES (NULL, NULL, '13', '104', '2011-10-17 14:49:58')
+2011-10-17 14:49:58 SELECT * FROM game_login_first_13  WHERE account_id IS NULL  AND server_id = '104'
+2011-10-17 14:49:58 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES (NULL, NULL, '104', '2011-10-17 14:49:58', 0, 0)
+2011-10-17 14:49:58  select * from play_game_log where account_id =  
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 14:49:58 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES (NULL, NULL, 0, '13', '104', '2011-10-17 14:49:58', 1, NULL, 2081364339, 0)
+2011-10-17 14:50:15 SELECT * FROM account  WHERE account = '1312313'
+2011-10-17 14:50:15 SELECT * FROM play_game  WHERE account_id IS NULL  AND server_id = '104'
+2011-10-17 14:50:15 SELECT * FROM play_game  WHERE account_id IS NULL  ORDER BY play_time ASC
+2011-10-17 14:50:15 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES (NULL, NULL, '13', '104', '2011-10-17 14:50:15')
+2011-10-17 14:50:15 SELECT * FROM game_login_first_13  WHERE account_id IS NULL  AND server_id = '104'
+2011-10-17 14:50:15 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES (NULL, NULL, '104', '2011-10-17 14:50:15', 0, 0)
+2011-10-17 14:50:15  select * from play_game_log where account_id =  
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 14:50:15 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES (NULL, NULL, 0, '13', '104', '2011-10-17 14:50:15', 1, NULL, 2081364339, 0)
+2011-10-17 15:22:26 SELECT * FROM account  WHERE account = '1312313'
+2011-10-17 15:22:27 SELECT * FROM account  WHERE account = '1312313'
+2011-10-17 15:22:35 SELECT * FROM account  WHERE account = '1312313'
+2011-10-17 15:43:15 SELECT * FROM account  WHERE account = '1312313'
+2011-10-17 15:43:20 SELECT * FROM account  WHERE account = '1312313'
+2011-10-17 15:44:02 SELECT * FROM account  WHERE account = '1312313'
+2011-10-17 15:49:15 SELECT * FROM account  WHERE account = '1312313'
+2011-10-17 15:50:20 SELECT * FROM account  WHERE account = 'yycooper'
+2011-10-17 15:50:42 SELECT * FROM cooper  WHERE name_en = 'yycooper'
+2011-10-17 15:54:02 SELECT * FROM cooper  WHERE name_en = 'yycooper'
+2011-10-17 15:54:02 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 15:54:02 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 15:54:02 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 15:54:02 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 15:54:02')
+2011-10-17 15:54:02 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 15:54:02 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 15:54:02', 0, '2001')
+2011-10-17 15:54:02  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 15:54:02 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 15:54:02', 1, NULL, 2081364339, 0)
+2011-10-17 15:57:04 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 15:57:04 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 15:57:04 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 15:57:04')
+2011-10-17 15:57:04 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 15:57:04 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 15:57:04', 0, '2001')
+2011-10-17 15:57:04  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 15:57:04 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 15:57:04', 1, NULL, 2081364339, 0)
+2011-10-17 15:57:53 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 15:57:53 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 15:57:53 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 15:57:53')
+2011-10-17 15:57:53 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 15:57:53 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 15:57:53', 0, '2001')
+2011-10-17 15:57:53  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 15:57:53 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 15:57:53', 1, NULL, 2081364339, 0)
+2011-10-17 15:58:07 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 15:58:07 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 15:58:07 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 15:58:07')
+2011-10-17 15:58:07 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 15:58:07 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 15:58:07', 0, '2001')
+2011-10-17 15:58:07  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 15:58:07 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 15:58:07', 1, NULL, 2081364339, 0)
+2011-10-17 15:58:55 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 15:58:55 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 15:58:55 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 15:58:55')
+2011-10-17 15:58:55 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 15:58:55 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 15:58:55', 0, '2001')
+2011-10-17 15:58:55  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 15:58:55 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 15:58:55', 1, NULL, 2081364339, 0)
+2011-10-17 16:00:05 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:05 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 16:00:05 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 16:00:05')
+2011-10-17 16:00:05 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:05 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 16:00:05', 0, '2001')
+2011-10-17 16:00:05  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:00:05 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 16:00:05', 1, NULL, 2081364339, 0)
+2011-10-17 16:00:07 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:07 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 16:00:07 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 16:00:07')
+2011-10-17 16:00:07 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:07 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 16:00:07', 0, '2001')
+2011-10-17 16:00:07  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:00:07 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 16:00:07', 1, NULL, 2081364339, 0)
+2011-10-17 16:00:20 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:20 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 16:00:20 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 16:00:20')
+2011-10-17 16:00:20 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:20 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 16:00:20', 0, '2001')
+2011-10-17 16:00:20  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:00:20 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 16:00:20', 1, NULL, 2081364339, 0)
+2011-10-17 16:00:24 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:24 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 16:00:24 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 16:00:24')
+2011-10-17 16:00:24 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:24 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 16:00:24', 0, '2001')
+2011-10-17 16:00:24  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:00:24 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 16:00:24', 1, NULL, 2081364339, 0)
+2011-10-17 16:00:24 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:24 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 16:00:24 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 16:00:24')
+2011-10-17 16:00:24 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:24 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 16:00:24', 0, '2001')
+2011-10-17 16:00:24  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:00:24 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 16:00:24', 1, NULL, 2081364339, 0)
+2011-10-17 16:00:25 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:25 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 16:00:25 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 16:00:25')
+2011-10-17 16:00:25 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:25 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 16:00:25', 0, '2001')
+2011-10-17 16:00:25  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:00:25 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 16:00:25', 1, NULL, 2081364339, 0)
+2011-10-17 16:00:25 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:25 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 16:00:25 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 16:00:25')
+2011-10-17 16:00:25 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:25 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 16:00:25', 0, '2001')
+2011-10-17 16:00:25  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:00:25 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 16:00:25', 1, NULL, 2081364339, 0)
+2011-10-17 16:00:25 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:25 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 16:00:25 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 16:00:25')
+2011-10-17 16:00:25 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:25 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 16:00:25', 0, '2001')
+2011-10-17 16:00:25  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:00:25 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 16:00:25', 1, NULL, 2081364339, 0)
+2011-10-17 16:00:26 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:26 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 16:00:26 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 16:00:26')
+2011-10-17 16:00:26 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:26 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 16:00:26', 0, '2001')
+2011-10-17 16:00:26  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:00:26 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 16:00:26', 1, NULL, 2081364339, 0)
+2011-10-17 16:00:26 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:26 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 16:00:26 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 16:00:26')
+2011-10-17 16:00:26 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:26 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 16:00:26', 0, '2001')
+2011-10-17 16:00:26  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:00:26 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 16:00:26', 1, NULL, 2081364339, 0)
+2011-10-17 16:00:26 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:26 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 16:00:26 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 16:00:26')
+2011-10-17 16:00:26 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:26 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 16:00:26', 0, '2001')
+2011-10-17 16:00:26  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:00:26 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 16:00:26', 1, NULL, 2081364339, 0)
+2011-10-17 16:00:26 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:26 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 16:00:26 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 16:00:26')
+2011-10-17 16:00:26 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:26 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 16:00:26', 0, '2001')
+2011-10-17 16:00:26  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:00:26 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 16:00:26', 1, NULL, 2081364339, 0)
+2011-10-17 16:00:26 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:26 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 16:00:26 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 16:00:26')
+2011-10-17 16:00:26 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:26 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 16:00:26', 0, '2001')
+2011-10-17 16:00:26  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:00:26 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 16:00:26', 1, NULL, 2081364339, 0)
+2011-10-17 16:00:27 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:27 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 16:00:27 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 16:00:27')
+2011-10-17 16:00:27 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:27 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 16:00:27', 0, '2001')
+2011-10-17 16:00:27  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:00:27 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 16:00:27', 1, NULL, 2081364339, 0)
+2011-10-17 16:00:27 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:27 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 16:00:27 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 16:00:27')
+2011-10-17 16:00:27 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:00:27 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 16:00:27', 0, '2001')
+2011-10-17 16:00:27  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:00:27 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 16:00:27', 1, NULL, 2081364339, 0)
+2011-10-17 16:02:20 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:02:20 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 16:02:20 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 16:02:20')
+2011-10-17 16:02:20 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:02:20 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 16:02:20', 0, '2001')
+2011-10-17 16:02:20  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:02:20 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 16:02:20', 1, NULL, 2081364339, 0)
+2011-10-17 16:02:21 SELECT * FROM play_game  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:02:21 SELECT * FROM play_game  WHERE account_id = '1454340' ORDER BY play_time ASC
+2011-10-17 16:02:21 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('1454340', NULL, '13', '104', '2011-10-17 16:02:21')
+2011-10-17 16:02:21 SELECT * FROM game_login_first_13  WHERE account_id = '1454340' AND server_id = '104'
+2011-10-17 16:02:21 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('1454340', NULL, '104', '2011-10-17 16:02:21', 0, '2001')
+2011-10-17 16:02:21  select * from play_game_log where account_id = 1454340 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:02:21 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('1454340', NULL, '2001', '13', '104', '2011-10-17 16:02:21', 1, NULL, 2081364339, 0)
+2011-10-17 16:05:57 SELECT * FROM cooper  WHERE name_en = 'yycooper'
+2011-10-17 16:05:57 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:10:57 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:11:19 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:11:22 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:13:59 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:15:45 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:17:12 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:17:12 INSERT INTO `account` (`account_id`, `account`, `email`, `reg_ip`, `reg_time`, `from_id`, `game_id`, `cooper_id`, `sub_code`, `week`, `hour`) VALUES (138082, 'yangjinjin', '', '124.15.25.115', '2011-10-17 16:17:12', '2001', '13', 0, 0, '1', '16')
+2011-10-17 16:17:12 SELECT * FROM games  WHERE game_id = '13'
+2011-10-17 16:17:12 SELECT * FROM game_servers  WHERE server_id = '104'
+2011-10-17 16:17:12 SELECT * FROM play_game  WHERE account_id = 138082 AND server_id = '104'
+2011-10-17 16:17:12 SELECT * FROM play_game  WHERE account_id = 138082 ORDER BY play_time ASC
+2011-10-17 16:17:12 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES (138082, NULL, '13', '104', '2011-10-17 16:17:12')
+2011-10-17 16:17:12 SELECT * FROM game_login_first_13  WHERE account_id = 138082 AND server_id = '104'
+2011-10-17 16:17:12 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES (138082, NULL, '104', '2011-10-17 16:17:12', 0, '2001')
+2011-10-17 16:17:12  select * from play_game_log where account_id = 138082 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:17:12 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES (138082, NULL, '2001', '13', '104', '2011-10-17 16:17:12', 1, NULL, 2081364339, 0)
+2011-10-17 16:17:49 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:17:49 SELECT * FROM play_game  WHERE account_id = '138082' AND server_id = '104'
+2011-10-17 16:17:49 SELECT * FROM play_game  WHERE account_id = '138082' ORDER BY play_time ASC
+2011-10-17 16:17:49 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('138082', NULL, '13', '104', '2011-10-17 16:17:49')
+2011-10-17 16:17:49 SELECT * FROM game_login_first_13  WHERE account_id = '138082' AND server_id = '104'
+2011-10-17 16:17:49 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('138082', NULL, '104', '2011-10-17 16:17:49', 0, '2001')
+2011-10-17 16:17:49  select * from play_game_log where account_id = 138082 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:17:49 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('138082', NULL, '2001', '13', '104', '2011-10-17 16:17:49', 1, NULL, 2081364339, 0)
+2011-10-17 16:17:55 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:17:55 SELECT * FROM play_game  WHERE account_id = '138082' AND server_id = '104'
+2011-10-17 16:17:55 SELECT * FROM play_game  WHERE account_id = '138082' ORDER BY play_time ASC
+2011-10-17 16:17:55 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('138082', NULL, '13', '104', '2011-10-17 16:17:55')
+2011-10-17 16:17:55 SELECT * FROM game_login_first_13  WHERE account_id = '138082' AND server_id = '104'
+2011-10-17 16:17:55 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('138082', NULL, '104', '2011-10-17 16:17:55', 0, '2001')
+2011-10-17 16:17:55  select * from play_game_log where account_id = 138082 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:17:55 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('138082', NULL, '2001', '13', '104', '2011-10-17 16:17:55', 1, NULL, 2081364339, 0)
+2011-10-17 16:18:03 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:18:03 SELECT * FROM play_game  WHERE account_id = '138082' AND server_id = '104'
+2011-10-17 16:18:03 SELECT * FROM play_game  WHERE account_id = '138082' ORDER BY play_time ASC
+2011-10-17 16:18:03 INSERT INTO `play_game` (`account_id`, `account`, `game_id`, `server_id`, `play_time`) VALUES ('138082', NULL, '13', '104', '2011-10-17 16:18:03')
+2011-10-17 16:18:03 SELECT * FROM game_login_first_13  WHERE account_id = '138082' AND server_id = '104'
+2011-10-17 16:18:03 INSERT INTO `game_login_first_13` (`account_id`, `account`, `server_id`, `login_time`, `coop_id`, `from_id`) VALUES ('138082', NULL, '104', '2011-10-17 16:18:03', 0, '2001')
+2011-10-17 16:18:03  select * from play_game_log where account_id = 138082 
+				 and server_id = 104
+				 and login_time > '2011-10-17' limit 1 
+2011-10-17 16:18:03 INSERT INTO `play_game_log` (`account_id`, `account`, `from_id`, `game_id`, `server_id`, `login_time`, `login_times`, `reg_time`, `login_ip`, `cooper_id`) VALUES ('138082', NULL, '2001', '13', '104', '2011-10-17 16:18:03', 1, NULL, 2081364339, 0)
+2011-10-17 16:34:42 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:34:42 SELECT * FROM games  WHERE game_id = '19'
+2011-10-17 16:34:42 SELECT * FROM game_servers  WHERE server_id = '123'
+2011-10-17 16:36:51 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:38:26 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:38:55 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:39:03 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:42:21 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:42:21 SELECT * FROM game_servers  WHERE server_id = '998'
+2011-10-17 16:42:21 select flag from active_code where game_id='19' and user_name='' limit 1 
+2011-10-17 16:42:25 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:42:25 select flag from active_code where game_id='19' and user_name='' limit 1 
+2011-10-17 16:42:42 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:42:42 select flag from active_code where game_id='19' and user_name='' limit 1 
+2011-10-17 16:43:14 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:43:35 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:43:49 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:43:49 select flag from active_code where game_id='19' and user_name='' limit 1 
+2011-10-17 16:44:00 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:44:00 select flag from active_code where game_id='19' and user_name='' limit 1 
+2011-10-17 16:45:00 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:45:00 select flag from active_code where game_id='19' and user_name='' limit 1 
+2011-10-17 16:46:04 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:46:04 select flag from active_code where game_id='19' and user_name='' limit 1 
+2011-10-17 16:46:16 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:46:16 select flag from active_code where game_id='19' and user_name='' limit 1 
+2011-10-17 16:46:19 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:46:19 select flag from active_code where game_id='19' and user_name='' limit 1 
+2011-10-17 16:46:40 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:46:40 select flag from active_code where game_id='19' and user_name='' limit 1 
+2011-10-17 16:50:56 SELECT * FROM account  WHERE account = 'yangjinjin'
+2011-10-17 16:50:56 SELECT * FROM games  WHERE game_id = '19'
+2011-10-17 16:50:56 select flag from active_code where game_id='19' and user_name='' limit 1 
+2011-10-17 18:36:36 SELECT * FROM account  WHERE account = 'yangjinjin'

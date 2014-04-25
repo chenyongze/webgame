@@ -1,0 +1,21 @@
+2011-12-14 10:59:46 SELECT * FROM account  WHERE account_id = 120461
+2011-12-14 10:59:47 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2011-12-14 10:59:47 SELECT * FROM game_servers  WHERE game_id = '19' ORDER BY number DESC
+2011-12-14 11:58:17 SELECT * FROM account  WHERE account_id = 120461
+2011-12-14 11:58:17 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2011-12-14 11:59:47 SELECT * FROM account  WHERE account_id = 120461
+2011-12-14 11:59:47 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2011-12-14 12:07:49 SELECT * FROM play_game  WHERE account_id = 120461 ORDER BY play_time DESC
+2011-12-14 12:07:49 SELECT * FROM games  WHERE 1
+2011-12-14 12:07:49 SELECT * FROM game_servers  WHERE 1
+2011-12-14 12:40:12 SELECT * FROM account  WHERE account_id = 120461
+2011-12-14 12:40:12 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2011-12-14 12:40:38 SELECT * FROM account  WHERE account_id = 120461
+2011-12-14 12:40:38 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2011-12-14 16:17:57 SELECT * FROM account  WHERE account_id = 120461
+2011-12-14 16:17:57 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2011-12-14 16:23:06 SELECT * FROM account  WHERE account_id = 120461
+2011-12-14 16:23:06 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2011-12-14 16:25:46 SELECT * FROM account  WHERE account_id = 120461
+2011-12-14 16:25:46 select * from play_game where account_id = '120461' and game_id = '19' order by play_time desc limit 3
+2011-12-14 18:42:27 SELECT * FROM games  WHERE game_id = 19

@@ -1,0 +1,39 @@
+2012-01-04 11:07:10 curl: http://passport.51yx.com/CheckNewUser param: passport=yangjinjin: -0.13296699523926s
+2012-01-04 11:07:10 '1009
+'
+2012-01-04 11:07:10 curl: http://passport.51yx.com/CheckNewUser param: passport=yangjinjin: -0.14583992958069s
+2012-01-04 11:07:10 '1009
+'
+2012-01-04 11:29:51 curl: http://passport.51yx.com/CheckNewUser param: passport=wow_001: -0.083598136901855s
+2012-01-04 11:29:51 '1009
+'
+2012-01-04 11:30:11 curl: http://passport.51yx.com/CheckNewUser param: passport=wow_001: -0.064232110977173s
+2012-01-04 11:30:11 '1009
+'
+2012-01-04 11:30:22 curl: http://passport.51yx.com/CheckNewUser param: passport=wow_0011111: -0.059508085250854s
+2012-01-04 11:30:22 '0
+'
+2012-01-04 11:30:45 curl: http://passport.51yx.com/CheckNewUser param: passport=wow_001: -0.059087991714478s
+2012-01-04 11:30:45 '1009
+'
+2012-01-04 11:30:46 curl: http://passport.51yx.com/CheckNewUser param: passport=wow_001: -0.060442924499512s
+2012-01-04 11:30:46 '1009
+'
+2012-01-04 11:30:54 curl: http://passport.51yx.com/CheckNewUser param: passport=wow_001: -0.058356046676636s
+2012-01-04 11:30:54 '1009
+'
+2012-01-04 11:30:55 curl: http://passport.51yx.com/CheckNewUser param: passport=wow_001: -0.058341026306152s
+2012-01-04 11:30:55 '1009
+'
+2012-01-04 11:30:56 curl: http://passport.51yx.com/CheckNewUser param: passport=wow_001: -0.057634115219116s
+2012-01-04 11:30:56 '1009
+'
+2012-01-04 11:31:02 curl: http://passport.51yx.com/CheckNewUser param: passport=wow_0011111: -0.059165000915527s
+2012-01-04 11:31:02 '0
+'
+2012-01-04 11:31:02 curl: http://passport.51yx.com/CheckNewUser param: passport=wow_0011111: -0.059426069259644s
+2012-01-04 11:31:02 '0
+'
+2012-01-04 11:31:03 curl: http://passport.51yx.com/CheckNewUser param: passport=wow_0011111: -0.059838056564331s
+2012-01-04 11:31:03 '0
+'

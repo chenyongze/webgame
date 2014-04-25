@@ -1,0 +1,12 @@
+2011-11-15 10:00:40 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=wow_001&password=f59bd65f7edafb087a81d4dca06c4910&sign=fe0f8147b58f13a2ca945e81e9549ad3: -0.10497403144836s
+2011-11-15 10:31:23 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=lq1111&password=4b1f8f775e93c0bf399cecc0103ebef3&sign=e041414bf55d8398db9a3b664b6a9732: -0.023836851119995s
+2011-11-15 10:31:23 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=lq1111&password=4b1f8f775e93c0bf399cecc0103ebef3&sign=e041414bf55d8398db9a3b664b6a9732: -0.020222187042236s
+2011-11-15 10:31:23 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=lq1111&password=4b1f8f775e93c0bf399cecc0103ebef3&sign=e041414bf55d8398db9a3b664b6a9732: -0.020644903182983s
+2011-11-15 10:31:23 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=lq1111&password=4b1f8f775e93c0bf399cecc0103ebef3&sign=e041414bf55d8398db9a3b664b6a9732: -0.022433996200562s
+2011-11-15 10:31:24 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=lq1111&password=4b1f8f775e93c0bf399cecc0103ebef3&sign=e041414bf55d8398db9a3b664b6a9732: -0.019824981689453s
+2011-11-15 10:31:24 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=lq1111&password=4b1f8f775e93c0bf399cecc0103ebef3&sign=e041414bf55d8398db9a3b664b6a9732: -0.022358894348145s
+2011-11-15 10:31:27 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=lq1111&password=4b1f8f775e93c0bf399cecc0103ebef3&sign=e041414bf55d8398db9a3b664b6a9732: -0.020532131195068s
+2011-11-15 10:31:27 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=lq1111&password=4b1f8f775e93c0bf399cecc0103ebef3&sign=e041414bf55d8398db9a3b664b6a9732: -0.021869897842407s
+2011-11-15 10:34:48 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=aasfp110&password=f59bd65f7edafb087a81d4dca06c4910&sign=b6ed16529c13b2744f23d4b1c8926e94: -0.026486873626709s
+2011-11-15 10:34:48 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=aasfp110&password=f59bd65f7edafb087a81d4dca06c4910&sign=b6ed16529c13b2744f23d4b1c8926e94: -0.019745826721191s
+2011-11-15 10:44:34 curl: http://59.108.35.100:8070/PassportSystem/webgamelogin param: passport=wow_002&password=f59bd65f7edafb087a81d4dca06c4910&sign=c5978f00988d469c5b932d94da069b53: -0.08265495300293s
