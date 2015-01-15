@@ -22,4 +22,5 @@ $badwords = array(
 	'sb',
 	'shit',
 	'tmd',
+	'dddd',
 );
